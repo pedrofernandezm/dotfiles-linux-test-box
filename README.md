@@ -6,6 +6,7 @@ This will create a Vagrant VM to test the correct set up and usage of the [dotfi
 ## Dependencies
 
 - [Vagrant](https://www.vagrantup.com)
+- Add SSH key to ssh-agent `ssh-add -K ~/.ssh/id_rsa`
 
 ## Run test box set up
 
