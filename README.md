@@ -6,8 +6,9 @@ This will create a Vagrant VM to test the correct set up and usage of the [dotfi
 ## Dependencies
 
 - [Vagrant](https://www.vagrantup.com)
-- Add SSH key to ssh-agent `ssh-add -K ~/.ssh/id_rsa`
 
 ## Run test box set up
 
-`vagrant up`
+`make box`
+
+This will add your default ssh key (`~/.ssh/id_rsa`) to the ssh-agent and provision a Vagrant VM with the dotfiles repository in it.
