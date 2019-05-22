@@ -9,4 +9,4 @@ build:
 	@echo "[ok]"
 
 run:
-	@docker run --rm -it -v $$PWD/../dotfiles:/dotfiles dotfiles-test-box:latest /bin/bash
+	@docker run --rm -it -v $$PWD/../dotfiles:/home/bob/dotfiles dotfiles-test-box:latest /bin/bash
