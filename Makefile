@@ -5,7 +5,7 @@ box: build
 
 build:
 	@echo -n "Building Dockerfile..."
-	@docker build -t dotfiles-test-box:latest . &> /dev/null
+	@docker build -t dotfiles-test-box:latest .
 	@echo "[ok]"
 
 run:

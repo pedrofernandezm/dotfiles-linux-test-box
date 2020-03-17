@@ -1,8 +1,7 @@
-FROM ubuntu:disco
+FROM ubuntu:latest
 
 RUN apt-get update && apt-get -y install \
       git \
-      vim \
       make \
       sudo
 
